@@ -20,6 +20,16 @@ typedef int32_t i32;
 #define NUM_BLOCKS 1024
 #define NUM_INODES 128
 
+#define BLOCKS_PER_GROUP 8192
+#define FRAGS_PER_GROUP 8192
+#define INODES_PER_GROUP 128
+#define EXT2_VALID_FS 1
+#define EXT2_ERRORS_CONTINUE 1
+#define CHECK_INTERVAL 1
+#define EXT2_OS_LINUX 0
+#define MAX_MNT_COUNT 0xFFFF
+#define USED_DIRS 2
+
 #define LOST_AND_FOUND_INO 11
 #define HELLO_WORLD_INO    12
 #define HELLO_INO          13
